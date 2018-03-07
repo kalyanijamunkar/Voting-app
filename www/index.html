@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,500,500italic,700,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,300,700' rel='stylesheet' type='text/css'>
+  <!-- <script src="cordova.js"></script> -->
+  <title>Stream</title>
+</head>
+<body>
+  <div id="root"></div>
+  <script src="bundle.js"></script>
+  <script>
+    if (/Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)) {
+      // When ready, auto-scroll 1px to hide URL bar
+      window.addEventListener("load", function () {
+          // Set a timeout...
+          setTimeout(function () {
+              // Hide the address bar!
+              window.scrollTo(0, 1);
+          }, 0);
+      });
+    }
+  </script>
+</body>
+</html>
