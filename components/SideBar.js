@@ -19,17 +19,17 @@ class SideBar extends React.Component {
     this.state = {
       isOpen: false,
       streamElements: [
-          {id: '1', type: 'QuizGroup', attempt_status: 'Not Complete', title: 'who is your favourite actor?', description: 'erg',
-          answers: [{answer_text: 'tom cruise', percentage: 50, index: 1}, {answer_text: 'johny depp', percentage: 20, index: 2}], graph_data: [{answer_text: 'tom cruise', index: 1, percentage: 20}, {answer_text: 'johny depp', index: 1, percentage: 20}]},
+          {id: '1', type: 'QuizGroup', attempt_status: 'Not Complete', title: 'Who should be the next president of the United States?', description: 'What is your preferred JavaScript library?',
+          answers: [{answer_text: 'Hillary Clinton', percentage: 80, index: 1}, {answer_text: 'johny depp', percentage: 80, index: 2}], graph_data: [{answer_text: 'Donald Trump', index: 1, percentage: 80}, {answer_text: 'johny depp', index: 1, percentage: 80}]},
 
-        {id: '2', type: 'QuizGroup', attempt_status: 'Not Complete', title: 'jjnjkb', description: 'wegwf',
-          answers: [{answer_text: 'hello', percentage: 20, index: 1}, {answer_text: 'ghvjhbhj', percentage: 20, index: 2}], graph_data: [{answer_text: 'hello', index: 1, percentage: 20}, {answer_text: 'ghvjhbhj', index: 1, percentage: 20}]
+        {id: '2', type: 'QuizGroup', attempt_status: 'Not Complete', title: 'What is your preferred JavaScript library?', description: 'What is your preferred JavaScript library?',
+          answers: [{answer_text: ' React', percentage: 49, index: 1}, {answer_text: 'Angular js', percentage: 70, index: 2}], graph_data: [{answer_text: 'hello', index: 1, percentage: 49}, {answer_text: 'ghvjhbhj', index: 1, percentage: 70}]
       },
-      {id: '3', type: 'QuizGroup', attempt_status: 'Not Complete', title: 'jjnjkb', description: 'wegwf',
-        answers: [{answer_text: 'hello', percentage: 40, index: 1}, {answer_text: 'ghvjhbhj', percentage: 40, index: 2}], graph_data: [{answer_text: 'hello', index: 1, percentage: 40}, {answer_text: 'ghvjhbhj', index: 1, percentage: 40}]
+      {id: '3', type: 'QuizGroup', attempt_status: 'Not Complete', title: 'What is your preferred fast food chain?', description: 'What is your preferred fast food chain?',
+        answers: [{answer_text: 'Chick-fil-a', percentage: 40, index: 1}, {answer_text: 'McDonald', percentage: 40, index: 2}], graph_data: [{answer_text: 'hello', index: 1, percentage: 40}, {answer_text: 'ghvjhbhj', index: 1, percentage: 40}]
     },
-    {id: '4', type: 'QuizGroup', attempt_status: 'Not Complete', title: 'jjnjkb', description: 'wegwf',
-      answers: [{answer_text: 'hello', percentage: 58, index: 1}, {answer_text: 'ghvjhbhj', percentage: 74, index: 2}], graph_data: [{answer_text: 'hello', index: 1, percentage: 40}, {answer_text: 'ghvjhbhj', index: 1, percentage: 40}]
+    {id: '4', type: 'QuizGroup', attempt_status: 'Not Complete', title: 'Who Will Win Super Bowl 51?', description: 'Who Will Win Super Bowl 51?',
+      answers: [{answer_text: ' New England Patriots', percentage: 58, index: 1}, {answer_text: 'Atlanta Falcons', percentage: 74, index: 2}], graph_data: [{answer_text: 'hello', index: 1, percentage: 40}, {answer_text: 'ghvjhbhj', index: 1, percentage: 40}]
   }
   ]
     };
