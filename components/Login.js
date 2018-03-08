@@ -26,7 +26,7 @@ class Login extends Component {
     e.preventDefault();
     var user = ReactDOM.findDOMNode(this.refs.user).value.trim();
     var pass = ReactDOM.findDOMNode(this.refs.pass).value.trim();
-    if (user === 'abc' && pass === 'abc') {
+    if (user === 'kalyani@gmail.com' && pass === '123') {
       this.props.navigator.pushPage({component: SideBar}, {animation: 'slide'});
     } else {
       this.setState({errorRaised: true});
